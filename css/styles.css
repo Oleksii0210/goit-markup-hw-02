@@ -1,0 +1,227 @@
+.logo, .footer-fon-link {
+    text-transform: uppercase;
+}
+
+.logo, .studio, .link, .footer-fon-link {
+    text-decoration: none;
+}
+
+.list {
+list-style-type: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color:#434455;
+}
+
+
+
+.page-navigation {
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color:#4D5AE5;
+}
+
+.studio{
+    font-family: Raleway;
+    font-size: 18px;
+    color: #2E2F42;
+}
+
+.studio:hover {
+    color: #404bbf;
+    ;
+}
+                         /*menu*/
+.menu-item {
+    display:contents;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.menu-link {
+    color:#2E2F42
+}
+.menu-link:hover {
+    color:#404bbf;
+}
+
+.address-item {
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-link {
+    color:#434455;
+}
+
+                        /*section-one*/
+.section-one-fon{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    background-color: #2E2F42;
+    
+}
+
+.section-one-title {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    
+}
+
+.section-one-fon-botton {
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: inline-flex;
+    background-color: #4D5AE5;
+}
+
+.section-one-fon-botton:hover {
+    background-color: #404BBF;
+}
+                       /*section-two*/
+.section-two-fon{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #FFF;
+    
+}
+
+.section-two-list {
+    display: flex;
+}
+
+.section-two-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2E2F42;
+}
+
+.section-two-card {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+                       /*section-three*/
+.section-three-fon{
+    background-color: #F4F4FD;
+    
+}
+.section-three-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2E2F42;
+}
+
+.section-three-card {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+}
+
+.section-three-link {
+    display: flex;
+}
+                      /*section-four*/
+.section-four-fon{
+    background-color: #FFF;
+    
+}
+
+.section-four-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section-four-card {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-four-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+}
+.section-four-link {
+    display: flex;
+}
+                      /*footer*/
+.footer-fon{
+    background-color: #2E2F42;
+    
+}
+.footer-fon-link {
+    color:#4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+.footer-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+    display:block;
+}
+.footer-logo {
+    color:#F4F4FD;
+}
