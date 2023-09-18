@@ -79,9 +79,6 @@ body {
 
                         /*section-one*/
 .section-one-fon{
-   /* font-size: 56px;
-    font-style: normal;
-    font-weight: 700;*/
     text-align: center;
     background-color: #2E2F42;
     
@@ -110,7 +107,7 @@ body {
     background-color: #4D5AE5;
 }
 
-.section-one-fon-botton:hover {
+.section-one-fon-button:hover {
     background-color: #404BBF;
 }
                        /*section-two*/
@@ -146,16 +143,20 @@ body {
     letter-spacing: 0.02em;
     color:#2E2F42;
 }
+
+.section-two-text {
+    letter-spacing: 0.02em
+}
                        /*section-three*/
 .section-three-fon{
     background-color: #F4F4FD;
     
 }
-.section-three-text {
-    font-size: 16px;
+.section-three-title {
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -173,6 +174,12 @@ body {
 .section-three-link {
     display: flex;
 }
+
+.section-three-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color:#434455;
+}
                       /*section-four*/
 .section-four-fon{
     background-color: #FFF;
@@ -187,6 +194,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color:#434455;
 }
 
 .section-four-card {
