@@ -22,7 +22,7 @@ body {
     
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .logo {
@@ -130,10 +130,6 @@ body {
     
 }
 
-.section-two-list {
-    
-}
-
 .section-two-title {
     font-size: 36px;
     font-style: normal;
@@ -180,10 +176,7 @@ body {
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
-}
-
-.section-three-link {
-    background-color: #FFFFFF;
+    color:#2e2f42;
 }
 
 .section-three-text {
@@ -191,6 +184,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+}
+
+.section-three-link{
+    background-color: #FFFFFF;
 }
                       /*section-four*/
 .section-four-fon{
@@ -216,7 +213,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#404bbf;
+    color:#2e2f42;
 }
 
 .section-four-text {
@@ -225,9 +222,7 @@ body {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-}
-.section-four-link {
-    
+    color:#404bbf;
 }
                       /*footer*/
 .footer-fon{
