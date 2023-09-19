@@ -167,8 +167,10 @@ body {
     color:#2E2F42;
     text-align: center;
     text-transform: capitalize;
-    
 }
+.section-three-link{
+    background-color: #FFFFFF;
+} 
 
 .section-three-card {
     font-size: 20px;
@@ -184,10 +186,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-}
-
-.section-three-link{
-    background-color: #FFFFFF;
 }
                       /*section-four*/
 .section-four-fon{
