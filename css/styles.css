@@ -19,7 +19,7 @@ body {
 
 
 .page-navigation {
-    display: flex;
+    
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -63,16 +63,12 @@ body {
     color:#404bbf;
 }
 
-/*.menu-link:focus{
-    color:#404bbf;
-}*/
-
 .address{
     font-style: normal;
 }
 
 .address-item {
-    display: flex;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -87,10 +83,6 @@ body {
 .address-link:focus {
     color:#404bbf;
 }
-
-/*.address-link:focus{
-    color:#404bbf;
-}*/
 
                         /*section-one*/
 .section-one-fon{
@@ -116,7 +108,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
+   
     cursor: pointer;
     background-color: #4D5AE5;
 }
@@ -128,9 +120,6 @@ body {
     
     }
 
-/*.section-one-fon-button:focus {
-        background-color: #404BBF;
-        }*/
                        /*section-two*/
 .section-two-fon{
     font-size: 16px;
@@ -142,7 +131,7 @@ body {
 }
 
 .section-two-list {
-    display: flex;
+    
 }
 
 .section-two-title {
@@ -170,7 +159,7 @@ body {
 }
                        /*section-three*/
 .section-three-fon{
-    background-color: #2E2F42;
+    background-color: #F4F4FD;
     
 }
 .section-three-title {
@@ -179,9 +168,10 @@ body {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color:#2E2F42;
     text-align: center;
     text-transform: capitalize;
-    color:#2E2F42;
+    
 }
 
 .section-three-card {
@@ -193,10 +183,6 @@ body {
 }
 
 .section-three-link {
-    display: flex;
-}
-
-.section-four-link {
     background-color: #FFFFFF;
 }
 
@@ -218,9 +204,10 @@ body {
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
     text-transform: capitalize;
     text-align: center;
-    color:#434455;
+    
 }
 
 .section-four-card {
@@ -240,7 +227,7 @@ body {
     letter-spacing: 0.02em;
 }
 .section-four-link {
-    display: flex;
+    
 }
                       /*footer*/
 .footer-fon{
@@ -265,7 +252,7 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color:#F4F4FD;
-    display:block;
+    
 }
 .footer-logo {
     color:#F4F4FD;
