@@ -51,14 +51,24 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 
 .menu-link {
     color:#2E2F42
 }
 
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
     color:#404bbf;
+}
+
+/*.menu-link:focus{
+    color:#404bbf;
+}*/
+
+.address{
+    font-style: normal;
 }
 
 .address-item {
@@ -73,9 +83,14 @@ body {
     color:#434455;
 }
 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
     color:#404bbf;
 }
+
+/*.address-link:focus{
+    color:#404bbf;
+}*/
 
                         /*section-one*/
 .section-one-fon{
@@ -96,20 +111,26 @@ body {
 
 .section-one-fon-button {
     color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
-    padding: 16px 32px;
     display: inline-flex;
     cursor: pointer;
     background-color: #4D5AE5;
 }
 
-.section-one-fon-button:hover {
+.section-one-fon-button:hover,
+.section-one-fon-button:focus
+ {
     background-color: #404BBF;
-}
+    
+    }
+
+/*.section-one-fon-button:focus {
+        background-color: #404BBF;
+        }*/
                        /*section-two*/
 .section-two-fon{
     font-size: 16px;
@@ -149,7 +170,7 @@ body {
 }
                        /*section-three*/
 .section-three-fon{
-    background-color: #F4F4FD;
+    background-color: #2E2F42;
     
 }
 .section-three-title {
@@ -175,9 +196,14 @@ body {
     display: flex;
 }
 
+.section-four-link {
+    background-color: #FFFFFF;
+}
+
 .section-three-text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color:#434455;
 }
                       /*section-four*/
@@ -203,13 +229,14 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color:#404bbf;
 }
 
 .section-four-text {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.2; 
+    line-height: 1.5; 
     letter-spacing: 0.02em;
 }
 .section-four-link {
